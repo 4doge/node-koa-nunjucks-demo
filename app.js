@@ -2,7 +2,6 @@ const Koa = require('koa');
 const Router = require('koa-router');
 const views = require('koa-views');
 const path = require('path');
-const fs = require('fs');
 
 const app = new Koa();
 const router = new Router();
